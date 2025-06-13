@@ -2,7 +2,7 @@
 
 A modern, secure, and user-friendly web application for sharing text with unique, temporary links. Visit [MyCopyPaste](https://www.mycopypaste.io) to try it out!
 
-> MyCopyPaste is a lightweight, secure text sharing solution that allows users to share text content through unique, one-time access links. Built with PHP 8.0+ and MySQL, this application provides a clean, modern interface for quick text sharing with enhanced security features. Perfect for sharing sensitive information, temporary access codes, or any text content that should only be viewed once. Features include one-click copy functionality, text download options, and IP tracking for usage monitoring.
+> MyCopyPaste is a lightweight, secure text sharing solution that allows users to share text content through unique, one-time access links. Built with PHP 8.0+ and MySQL, this application provides a clean, modern interface for quick text sharing with enhanced security features. Perfect for sharing sensitive information, temporary access codes, or any text content that should only be viewed once. Features include one-click copy functionality, text download options.
 
 ## 🌟 Features
 
@@ -11,7 +11,6 @@ A modern, secure, and user-friendly web application for sharing text with unique
 - **Clean Interface**: Modern, responsive design with a user-friendly experience
 - **Copy to Clipboard**: One-click copy functionality for shared content
 - **Download Option**: Download shared text as a .txt file
-- **IP Tracking**: Basic IP tracking for usage statistics
 - **Mobile Responsive**: Works seamlessly on all devices
 
 ## 🚀 Quick Start
@@ -74,7 +73,6 @@ CREATE TABLE `copies` (
 ## 🔒 Security Features
 
 - One-time access links
-- IP tracking for usage monitoring
 - XSS protection
 - SQL injection prevention
 - Input sanitization
